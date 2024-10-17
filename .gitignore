@@ -1,0 +1,25 @@
+# Ignore environment and package files
+.env/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+*.log
+*.sqlite3
+
+# Ignore index directory (Whoosh indexes)
+indexdir/
+processed_files.json
+
+# Ignore system files (macOS, Windows)
+.DS_Store
+Thumbs.db
+
+# Ignore VSCode project files
+.vscode/
+
+# Ignore log and temporary files
+*.log
+*.tmp
